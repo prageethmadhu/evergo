@@ -7,9 +7,13 @@
 }
 
 .sub-main-carousal-col-2{
-    width: 90%;
+    width: 100%;
+      margin: 1%;
 }
+.sub-main-carousal-col-21{
+    width: 100%;
 
+}
 
 .sub-main-carousal-col-3{
     width: 5%;

@@ -5,11 +5,20 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './top-navigation.component.html',
   styleUrls: ['./top-navigation.component.css']
 })
+
 export class TopNavigationComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit() {
+    console.log('default innit called');
+
+  }
+
+  onHideMenu() {
+   
+    console.log('you have clicked me');
+
   }
 
 }

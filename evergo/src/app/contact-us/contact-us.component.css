@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.sub-main-carousal-row1{
+    display: flex;
+}
+
 .sub-main-carousal-col-1{
     width: 5%;
 }
@@ -14,8 +18,8 @@
     width: 5%;
 }
 
-.sub-main-headding{
-    background: #9b59b6!important;
+.sub-main-headding1{
+    background: darkgray!important;
     font-weight: 900;
     letter-spacing: 0.4px;
     text-transform: uppercase;
@@ -30,7 +34,6 @@
     font-weight: 900;
     letter-spacing: 0.4px;
     text-transform: uppercase;
-    background: #9b59b6!important;
+    
     margin-top: 20px;
-    border-color: #7E5390;
 }

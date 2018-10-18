@@ -1,0 +1,11 @@
+.stick{
+    display: none !important;
+    
+    transition: top .3s;
+    animation: 2s;
+}
+
+.stick2{
+    background-color: black !important;
+    opacity: 0.58 !important;
+}

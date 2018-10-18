@@ -1,20 +1,46 @@
 
 <main>
-  <div class="topNavigation">
-      
-    <ul >
-        <li><a routerLink="./">Home</a></li>
-        <li><a routerLink="./about">About us</a></li>
-        <li><a routerLink="./news-events">News &amp; Events</a></li>
-        <li><a routerLink="./testimonials">Testimonials</a></li>
-        <li><a routerLink="./faq">Faq</a></li>
-        <!-- <li><a href="https://www.ceylontours.com/sri-lanka/">Sri lanka </a></li> -->
-        <!-- <li><a href="https://www.ceylontours.com/maldives/">Maldives</a></li> -->
-        <li><a routerLink="./contact">Contact Us</a></li>
-        
-    </ul>
-  </div>
+ 
+  <div class="navWrapper">
+      <div class="topNavigation" id="mainTop" [ngClass]="{'stick': shouldStick}" style="display: block  ">
+          <div  style="display: flex;background-color: black;  ">
+            <div style="margin-left: auto;">
+              <ul >
+                <li><a routerLink="./">Blogs</a></li>
+                <li><a routerLink="./about">Testimonials</a></li>
+                <li><a routerLink="./news-events">Travelers comments</a></li>
   
+                
+            </ul>
+            </div>
+          </div>
+        
+      </div>
+
+    <div class="topNavigation">
+        <div  style="display: flex;background-color: transparent" [ngClass]="{'stick2': shouldStick2}">
+          <div>
+              <img src="./assets/images/logo_new.png" style="height: 60px;">
+          </div>
+          <div style="margin-left: auto;margin-top: 1.2%;font-weight: 1000 !important;font-size: 14px !important;" >
+            <ul >
+              <li><a routerLink="./">Home</a></li>
+              <li><a routerLink="./about">About us</a></li>
+              <li><a routerLink="./news-events">Tours</a></li>
+              <li><a routerLink="./testimonials">Testimonials</a></li>
+              <li><a routerLink="./faq">Faq</a></li>
+              <!-- <li><a href="https://www.ceylontours.com/sri-lanka/">Sri lanka </a></li> -->
+              <!-- <li><a href="https://www.ceylontours.com/maldives/">Maldives</a></li> -->
+              <li><a routerLink="./contact">Contact Us</a></li>
+              
+          </ul>
+          </div>
+        </div>
+      
+    </div>
+    
+  </div>
+    
   
   <div fxLayout="row wrap" class="colored box nopad">
       <div fxFlex="grow">
@@ -23,4 +49,12 @@
     </div>
     <router-outlet></router-outlet>
   </main>
+  <!-- <button style="    position: fixed;
+  top: 0;
+  margin-top: 0;
+  width: 15%;
+  height: 26px;
+  z-index: 2 !important;
+  background-color: red;" (click)="onHideMenu()" ></button> -->
   <footer><span>copy rights@2017</span></footer>
+

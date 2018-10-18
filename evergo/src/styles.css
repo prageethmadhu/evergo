@@ -28,8 +28,9 @@ flex: 1 0 auto;
 }
 
 .topNavigation{
-background-color: #1d4086;
+background-color:transparent;
 flex: 0 0 15px;
+
 }
 .topNavigation>ul{
 display: flex;
@@ -39,6 +40,7 @@ align-items:center;
 }
 .topNavigation ul li {
     list-style: none;
+    float: left;
 }
 .topNavigation ul li a{
     font-size: 13px;
@@ -49,7 +51,15 @@ align-items:center;
     letter-spacing: 1px;
     margin-right: 5px;
    
+}
+.navWrapper{
+    overflow: hidden;
+    position: fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1;
 }    
+
 content{
     
 }
