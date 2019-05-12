@@ -11,7 +11,8 @@ import { SubCarouselComponent } from './sub-carousel/sub-carousel.component';
 import { NewsEventComponent } from './news-event/news-event.component';
 import { TourDetailComponent } from './tour-detail/tour-detail.component';
 import { TourTestimonialComponent } from './tour-testimonial/tour-testimonial.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,10 @@ import { TourTestimonialComponent } from './tour-testimonial/tour-testimonial.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

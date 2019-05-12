@@ -19,11 +19,22 @@
 
 
 
+
 <div class="sub-main-carousal-row">
   <div class="sub-main-carousal-col-1"></div>
   <div class="sub-main-carousal-col-2" style="display:flex;flex-direction:column;">
       <h1 class="sub-main-headding1" style="background-color: darkgrey">CONTACT US</h1>
+
       <div>
+          <label>Send us message:
+
+              <textarea style="width:100%" rows="5" cols="60"  [(ngModel)]="emailMessage.Message" placeholder="Type your message here . . . "></textarea>
+         
+             </label>
+             <br>
+              <button (click)="onClickMe()" style="margin-bottom: 1%">SEND</button>
+             <br>
+
               <img  src="{{imagePath}}google-maps-multiple-locations.png" alt="Chicago">    
       </div>
   </div>
