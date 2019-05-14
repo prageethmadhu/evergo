@@ -1,3 +1,6 @@
+
+
+
 <div class="topNavigation" style="background-color: gray">
     <div  style="display: flex;background-color: transparent" >
       <div>
@@ -25,14 +28,14 @@
   <div class="sub-main-carousal-col-2" style="display:flex;flex-direction:column;">
       <h1 class="sub-main-headding1" style="background-color: darkgrey">CONTACT US</h1>
 
-      <div>
-          <label>Send us message:
+      <div class="form-group shadow-textarea">
+          <label>Send us message:</label>
 
-              <textarea style="width:100%" rows="5" cols="60"  [(ngModel)]="emailMessage.Message" placeholder="Type your message here . . . "></textarea>
+              <textarea class="form-control z-depth-1" style="width:100%" rows="5" cols="60"  [(ngModel)]="emailMessage.Message" placeholder="Type your message here . . . "></textarea>
          
-             </label>
+             
              <br>
-              <button (click)="onClickMe()" style="margin-bottom: 1%">SEND</button>
+              <button (click)="onClickMe()" style="margin-bottom: 1%" class="btn btn-lg btn-outline-dark">SEND</button>
              <br>
 
               <img  src="{{imagePath}}google-maps-multiple-locations.png" alt="Chicago">    
@@ -40,4 +43,36 @@
   </div>
   
   <div class="sub-main-carousal-col-3"></div>
+  
 </div>
+<ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <label for="dateOfBirth">Date of birth</label>
+          <div class="input-group">
+            <input id="dateOfBirth" class="form-control" placeholder="yyyy-mm-dd" name="dp" ngbDatepicker #dp="ngbDatepicker">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary calendar" (click)="dp.toggle()" type="button"></button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
+    </div>
+  </ng-template>
+  
+  <button class="btn btn-lg btn-outline-primary" (click)="open(content)">Launch demo modal</button>
+  
+  <hr>
+  
+  <pre>{{closeResult}}</pre>
+  

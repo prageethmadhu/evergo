@@ -13,8 +13,11 @@ import { TourDetailComponent } from './tour-detail/tour-detail.component';
 import { TourTestimonialComponent } from './tour-testimonial/tour-testimonial.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms'; 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
   declarations: [
+ 
     AppComponent,
     TopNavigationComponent,
     AboutUsComponent,
@@ -27,6 +30,7 @@ import { FormsModule } from '@angular/forms';
     TourTestimonialComponent
   ],
   imports: [
+    NgbModule,
     BrowserModule,
     AppRoutingModule,
     BrowserModule,
