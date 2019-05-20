@@ -15,24 +15,24 @@
           </div>
         
       </div>
-      <p>
-         
-         
-        </p>
-    <div class="topNavigation">
+
+    <div class="topNavigation" >
         <div  style="display: flex;background-color: transparent" [ngClass]="{'stick2': shouldStick2}">
           <div>
               <img src="./assets/images/logo_new.png" style="height: 60px;">
           </div>
           <div style="margin-left: auto;margin-top: 1.2%;font-weight: 1000 !important;font-size: 14px !important;" >
-            <ul >
+            <ul class="sub-menu xxx" style="font-size: 1%" >
               <li><a routerLink="./">Home</a></li>
-              <li><a routerLink="./about">About us</a></li>
+              <li>
+                <a routerLink="./about">About us</a>
+                <ul class="dropdown-menu sub-menu">
+                  <li>Test12323423</li>
+                </ul>
+              </li>
               <li><a routerLink="./news-events">Tours</a></li>
               <li><a routerLink="./testimonials">Testimonials</a></li>
               <li><a routerLink="./faq">Faq</a></li>
-              <!-- <li><a href="https://www.ceylontours.com/sri-lanka/">Sri lanka </a></li> -->
-              <!-- <li><a href="https://www.ceylontours.com/maldives/">Maldives</a></li> -->
               <li><a routerLink="./contact">Contact Us</a></li>
               
           </ul>
@@ -42,6 +42,8 @@
     </div>
     
   </div>
+
+
     
   
   <div fxLayout="row wrap" class="colored box nopad">

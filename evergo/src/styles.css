@@ -28,7 +28,9 @@ flex: 1 0 auto;
 }
 
 .topNavigation{
-background-color:transparent;
+background-color:black;
+opacity: 0.5;
+
 flex: 0 0 15px;
 
 }
@@ -52,6 +54,11 @@ align-items:center;
     margin-right: 5px;
    
 }
+.sub-menu li a{
+  font-size: 15px !important;
+  font-weight: 550
+}
+
 .navWrapper{
     overflow: hidden;
     position: fixed;
@@ -59,6 +66,19 @@ align-items:center;
     width: 100%; /* Full width */
     z-index: 1;
 }    
+
+.dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+
+.dropdown-menu li:hover > .sub-menu {
+  visibility: visible;
+  display: block;
+}
 
 content{
     

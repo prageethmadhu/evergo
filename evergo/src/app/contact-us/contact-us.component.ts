@@ -23,19 +23,12 @@ export class ContactUsComponent implements OnInit {
 
   ngOnInit() {
   }
+  
   imagePath= environment.imgPath
-  onClickMe() {
-    debugger;
-    const httpOptions = {
-      headers: new HttpHeaders({
-        'Content-Type':  'application/json'
-      })
-    };
-    //this.http.get<any>("http://api.evergotravels.com/api/values").subscribe(data=>console.log(data));
-    //this.http.post<EmailMessage>("http://api.evergotravels.com/api/email",this.emailMessage,httpOptions).subscribe(data=>console.log(data));
-   this.emailService.sendMessage(this.emailMessage).subscribe(data=>console.log(data));
-    this.emailMessage.Message="";
 
+  onClickMe() {
+    this.emailService.sendMessage(this.emailMessage).subscribe(data=>console.log(data));
+    this.emailMessage.Message="";
     this.clickMessage =this.emailAdress;
   }
 }
