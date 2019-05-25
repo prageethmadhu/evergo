@@ -14,6 +14,9 @@ import { TourTestimonialComponent } from './tour-testimonial/tour-testimonial.co
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms'; 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { ContactAddressComponent } from './contact-address/contact-address.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { ContactMainComponent } from './contact-main/contact-main.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     SubCarouselComponent,
     NewsEventComponent,
     TourDetailComponent,
-    TourTestimonialComponent
+    TourTestimonialComponent,
+    ContactAddressComponent,
+    ContactFormComponent,
+    ContactMainComponent
   ],
   imports: [
     NgbModule,

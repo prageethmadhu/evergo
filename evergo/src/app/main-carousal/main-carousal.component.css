@@ -1,3 +1,6 @@
 .right.carousel-control, .left.carousel-control {
     display: none;
 }
+#main-caro-wrapper .carousel-control-next, .carousel-control-next{
+z-index: unset;
+}

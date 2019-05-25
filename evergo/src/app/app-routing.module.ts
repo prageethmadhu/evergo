@@ -7,11 +7,11 @@ import { TourDetailComponent } from './tour-detail/tour-detail.component';
 import { FreequentlyAskQuestionsComponent } from './freequently-ask-questions/freequently-ask-questions.component';
 import { TourTestimonialComponent } from './tour-testimonial/tour-testimonial.component';
 import { NewsEventComponent } from './news-event/news-event.component';
-
+import { ContactMainComponent } from './contact-main/contact-main.component';
 const routes: Routes = [
   {
     path: 'contact',
-    component: ContactUsComponent
+    component: ContactMainComponent
   },
    {
      path: 'faq',

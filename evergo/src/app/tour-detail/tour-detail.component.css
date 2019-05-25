@@ -244,5 +244,7 @@
         margin-top: 20px;
         border-color: #7E5390;
     }
-
+    .place-view-list li{
+      margin: 1% 0;
+    }
     
