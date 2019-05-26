@@ -8,6 +8,7 @@ import { FreequentlyAskQuestionsComponent } from './freequently-ask-questions/fr
 import { TourTestimonialComponent } from './tour-testimonial/tour-testimonial.component';
 import { NewsEventComponent } from './news-event/news-event.component';
 import { ContactMainComponent } from './contact-main/contact-main.component';
+import { TourMainComponent } from './tour-main/tour-main.component';
 const routes: Routes = [
   {
     path: 'contact',
@@ -19,7 +20,7 @@ const routes: Routes = [
    },
    {
      path: 'news-events',
-     component: NewsEventComponent
+     component: TourMainComponent
    },
    {
      path: 'about',

@@ -17,6 +17,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { ContactAddressComponent } from './contact-address/contact-address.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ContactMainComponent } from './contact-main/contact-main.component';
+import { TourMainComponent } from './tour-main/tour-main.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ContactMainComponent } from './contact-main/contact-main.component';
     TourTestimonialComponent,
     ContactAddressComponent,
     ContactFormComponent,
-    ContactMainComponent
+    ContactMainComponent,
+    TourMainComponent
   ],
   imports: [
     NgbModule,

@@ -1,0 +1,15 @@
+.sub-main-carousal-row{
+    display: flex;
+}
+.sub-main-carousal-col-1{
+    width: 5%;
+}
+
+.sub-main-carousal-col-2{
+    width: 90%;
+    margin: 1%;
+}
+
+.sub-main-carousal-col-3{
+    width: 5%;
+}
