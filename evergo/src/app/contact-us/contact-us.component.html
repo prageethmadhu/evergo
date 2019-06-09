@@ -1,9 +1,6 @@
-
-
-
 <div class="topNavigation" style="background-color: gray">
-   
-  
+
+
 </div>
 
 
@@ -13,22 +10,23 @@
 
 
 
-<div class="sub-main-carousal-row" >
+<div class="sub-main-carousal-row">
   <div class="sub-main-carousal-col-1"></div>
   <div class="sub-main-carousal-col-2" style="display:flex;flex-direction:column;">
 
-      <div class="form-group shadow-textarea">
-          <label>Send us message:</label>
+    <div class="form-group shadow-textarea">
+      <label>Send us message:</label>
 
-              <textarea class="form-control z-depth-1" style="width:100%" rows="5" cols="60"  [(ngModel)]="emailMessage.Message" placeholder="Type your message here . . . "></textarea>
-         
-             
-             <br>
-              <button (click)="onClickMe()" style="margin-bottom: 1%" class="btn btn-lg btn-outline-dark">SEND</button>
-             <br>
-             <br>
+      <textarea class="form-control z-depth-1" style="width:100%" rows="5" cols="60" [(ngModel)]="emailMessage.Message"
+        placeholder="Type your message here . . . "></textarea>
 
-<!-- 
+
+      <br>
+      <button (click)="onClickMe()" style="margin-bottom: 1%" class="btn btn-lg btn-outline-dark">SEND</button>
+      <br>
+      <br>
+
+      <!-- 
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -54,7 +52,7 @@
   <h3>Navbar With Dropdown</h3>
   <p>This example adds a dropdown menu for the "Page 1" button in the navigation bar.</p>
 </div> -->
-<!-- <ng-template #content let-modal>
+      <!-- <ng-template #content let-modal>
     <div class="modal-header">
       <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
       <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">

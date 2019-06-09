@@ -1,66 +1,114 @@
-
 <main>
-  <div class="navWrapper">
-      <div class="topNavigation top" id="mainTop" [ngClass]="{'stick': shouldStick}" style="display: block  ">
-          <div  style="display: flex;  ">
-            <div style="margin-left: auto;">
-              <ul >
-                <li><a routerLink="./">inqueries@evergotravels.com</a></li>
-                <li><a routerLink="./">+9477-2893030</a></li>
-                <li><a routerLink="./"></a></li>
-  
-                
-            </ul>
+    <div class="navWrapper">
+        <div class="topNavigation top" id="mainTop" [ngClass]="{'stick': shouldStick}" style="display: block  ">
+            <div style="display: flex;  ">
+                <div style="margin-left: auto;">
+                    <ul>
+                        <li><a routerLink="./">inqueries@evergotravels.com</a></li>
+                        <li><a routerLink="./">+9477-2893030</a></li>
+                        <li><a routerLink="./"></a></li>
+
+
+                    </ul>
+                </div>
             </div>
-          </div>
-        
-      </div>
 
-    <div class="topNavigation" >
-        <div  style="display: flex;background-color: transparent" [ngClass]="{'stick2': shouldStick2}">
-          <div>
-              <img src="./assets/images/logo_new.png" style="height: 60px;">
-          </div>
-          <div style="margin-left: auto;margin-top: 1.2%;font-weight: 1000 !important;font-size: 14px !important;" >
-            <ul class="sub-menu xxx" style="font-size: 1%" >
-              <li><a routerLink="./">Home</a></li>
-              <li>
-                <a routerLink="./about">About us</a>
-                <ul class="dropdown-menu sub-menu">
-                  <li>Test12323423</li>
-                </ul>
-              </li>
-              <li><a routerLink="./news-events"> Select Tours</a></li>
-              <li><a routerLink="#"> Maldives</a></li>
-              <li><a routerLink="./contact">Contact Us</a></li>
-              
-          </ul>
-          </div>
         </div>
-      
+
+        <!-- <div class="topNavigation" >
+              <div  style="display: flex;background-color: transparent" [ngClass]="{'stick2': shouldStick2}">
+                <div>
+                    <img src="./assets/images/logo_new.png" style="height: 60px;">
+                </div>
+                <div style="margin-left: auto;margin-top: 1.2%;font-weight: 1000 !important;font-size: 14px !important;" >
+                  <ul class="sub-menu xxx" style="font-size: 1%" >
+                    <li><a routerLink="./">Home</a></li>
+                    <li>
+                      <a routerLink="./about">About us</a>
+                      <ul class="dropdown-menu sub-menu">
+                        <li>Test12323423</li>
+                      </ul>
+                    </li>
+                    <li><a routerLink="./news-events"> Select Tours</a></li>
+                    <li><a routerLink="#"> Maldives</a></li>
+                    <li><a routerLink="./contact">Contact Us</a></li>
+                    
+                </ul>
+                </div>
+              </div>
+            
+          </div> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light topNavigation" style="box-shadow: none">
+
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo_new.png" style="height: 60px;">
+                
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link" routerLink="./">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a routerLink="./about" class="nav-link">About us</a>
+                        <!-- <a class="nav-link" routerLink="./about">Features</a> -->
+                    </li>
+                    <!-- <li class="nav-item">
+                            <a class="nav-link" routerLink="./news-events">Select Tours</a>
+                        </li> -->
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Select Tours
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" routerLink="news-events" fragment="ALL">All</a>
+                            <a class="dropdown-item" routerLink="news-events" fragment="CULTURAL">CULTURAL</a>
+                            <a class="dropdown-item" routerLink="news-events" fragment="AYURVEDAWELLNESS">AYURVEDA & WELLNESS</a>
+                            <a class="dropdown-item" routerLink="news-events" fragment="INTOTHEWILD">INTO THE WILD</a>
+                            <a class="dropdown-item" routerLink="news-events" fragment="UPINTHEHILLS">UP IN THE HILLS</a>
+                            <a class="dropdown-item" routerLink="news-events" fragment="LOVEROMANTIC">LOVE & ROMANTIC</a>
+                            <a class="dropdown-item" routerLink="news-events" fragment="SANDYSHORE">SANDY SHORE</a>
+                            <a class="dropdown-item" routerLink="news-events" fragment="GOLF">GOLF & LUXURY</a>
+                            <a class="dropdown-item" routerLink="news-events" fragment="EXCURSIONS">EXCURSIONS</a>
+                            <a class="dropdown-item" routerLink="news-events" fragment="SEATINCOACH">SEAT IN COACH </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="#">Maldives</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="./contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
     </div>
-    
-  </div>
 
 
-    
-  
-  <div fxLayout="row wrap" class="colored box nopad">
-      <div fxFlex="grow">
-  
-      </div>
+
+    <div fxLayout="row wrap" class="colored box nopad">
+        <div fxFlex="grow">
+
+        </div>
     </div>
+    
     <router-outlet></router-outlet>
-  </main>
-  <!-- <button style="    position: fixed;
-  top: 0;
-  margin-top: 0;
-  width: 15%;
-  height: 26px;
-  z-index: 2 !important;
-  background-color: red;" (click)="onHideMenu()" ></button> -->
-  <span  style="
-  float: right;
-  font-size: smaller;
-">copy rights@2017</span>
-
+</main>
+<!-- <button style="    position: fixed;
+        top: 0;
+        margin-top: 0;
+        width: 15%;
+        height: 26px;
+        z-index: 2 !important;
+        background-color: red;" (click)="onHideMenu()" ></button> -->
+<span id="Test1" style="
+        float: right;
+        font-size: smaller;
+      "> #Test copy rights@2017</span>

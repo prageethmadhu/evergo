@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-
+@import "../node_modules/mdbootstrap/css/mdb.min.css";
 body {
     height: 100%;
     /*setting this explicitly is important*/
@@ -12,7 +12,8 @@ body {
     margin: 0;
     color: #222;
   }
-
+  
+  
 footer {
     flex: 0 0 90px;
     padding: 10px;
@@ -32,7 +33,7 @@ flex: 1 0 auto;
 }
 
 .topNavigation{
-background-color:lightgray;
+background-color:#f8f9fa;
 opacity: 0.87;
 
 flex: 0 0 15px;
@@ -56,6 +57,7 @@ align-items:center;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-right: 5px;
+    
    
 }
 #mainTop ul li a{
@@ -69,13 +71,22 @@ align-items:center;
 }
 
 .navWrapper{
-    overflow: hidden;
+    overflow: visible;
     position: fixed;
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     z-index: 1;
 }    
-
+.sub-content{
+  margin-top: 10%
+}
+#navbarNavDropdown ul li a{
+  color: rgb(163, 34, 38);
+  font-weight: 500;
+  font-size: medium;
+  /* font-style: initial; */
+  font-family: serif;
+}
 .dropdown-menu .sub-menu {
   left: 100%;
   position: absolute;

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { Router, NavigationEnd } from '@angular/router';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,7 +9,20 @@ export class AppComponent {
   title = 'app123';
   shouldStick;
   shouldStick2;
+  constructor(router: Router) {
 
+    router.events.subscribe(s => {
+      debugger;
+      if (s instanceof NavigationEnd) {
+        const tree = router.parseUrl(router.url);
+        if (tree.fragment) {
+          const element = document.querySelector("#" + tree.fragment);
+          if (element) { element.scrollIntoView(true); }
+        }
+      }
+    });
+
+  }
   onHideMenu(): void {
     debugger;
     console.log('you have clicked me');

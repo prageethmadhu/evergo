@@ -18,6 +18,7 @@ import { ContactAddressComponent } from './contact-address/contact-address.compo
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ContactMainComponent } from './contact-main/contact-main.component';
 import { TourMainComponent } from './tour-main/tour-main.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { TourMainComponent } from './tour-main/tour-main.component';
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
