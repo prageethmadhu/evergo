@@ -19,6 +19,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ContactMainComponent } from './contact-main/contact-main.component';
 import { TourMainComponent } from './tour-main/tour-main.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { SelectedTourComponent } from './selected-tour/selected-tour.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     ContactAddressComponent,
     ContactFormComponent,
     ContactMainComponent,
-    TourMainComponent
+    TourMainComponent,
+    SelectedTourComponent
   ],
   imports: [
     NgbModule,

@@ -1,0 +1,101 @@
+<div class="sub-main-carousal-row sub-content">
+  <div class="sub-main-carousal-col-21">
+  </div>
+</div>
+
+<div class="sub-main-carousal-row">
+  <div class="sub-main-carousal-col-1"></div>
+  <div class="sub-main-carousal-col-2" style="background: #fff">
+
+    <div style="display:flex">
+      <div fxLayout="row wrap" class="colored nopad">
+        <div fxFlex="grow">
+          <h2 style=" text-align: left;background: #fff;color: rgb(85, 106, 146);">{{selectedType.title}}</h2>
+          <div>
+            <br>
+            <span style="color:rgb(82, 82, 100);word-wrap:break-word;width:100%;text-align: left; ">
+              {{selectedType.detail}}
+            </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="sub-main-carousal-row" style="margin: 20px 1px 10px 1px">
+
+      <div style="display:flex;flex-direction: row">
+        <div style="width:100%" *ngFor="let image of selectedType.images">
+          <div style="margin: 2px 2px 2px 2px;">
+            <img src="{{imagePath}}{{image}}" alt="Chicago">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div>
+      <span>
+        <p>Duration : {{selectedType.duration}}</p>
+      </span>
+    </div>
+
+    <div class="sub-main-carousal-row" style="display:flex;flex-direction: column;margin: 20px 1px 10px 1px"
+      *ngFor="let activity of selectedType.activities">
+      <div>
+        {{activity.day}}
+        <br>
+      </div>
+
+      <div>
+        {{activity.route}}
+        <br>
+        Travel duration: {{activity.tduration}} Hours
+        <br>
+      </div>
+
+      <div>
+        <br>
+        {{activity.discription}}
+        <br>
+      </div>
+
+      <div>
+        <br>
+        {{activity.stay}}
+        <br>
+      </div>
+      <br>
+
+    </div>
+
+
+    <div>
+      <span>
+        <p>
+          {{selectedType.summary}}
+        </p>
+      </span>
+    </div>
+
+    <div>
+        <a routerLink="/contact">INQUIRE NOW</a>
+    </div>
+
+    <div>
+      <br>
+      <p>Kindly note these points:</p>
+      <ul>
+        <li>Your booking cannot be cancelled after making the payment. Therefore, cannot be refunded once the payment
+          done</li>
+        <li>Additional services and excursions may be provided for an additional charge</li>
+        <li>The official check-in time at all hotels at 02:00 pm</li>
+        <li>The official check-out time at all hotels at 12:00 pm</li>
+      </ul>
+    </div>
+    <div>
+      Share this post
+      FACEBOOK / TWITTER / PINTEREST / GOOGLE+ / LINKEDIN
+    </div>
+    <div class="sub-main-carousal-col-3"></div>
+  </div>

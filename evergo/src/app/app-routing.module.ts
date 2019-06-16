@@ -9,6 +9,8 @@ import { TourTestimonialComponent } from './tour-testimonial/tour-testimonial.co
 import { NewsEventComponent } from './news-event/news-event.component';
 import { ContactMainComponent } from './contact-main/contact-main.component';
 import { TourMainComponent } from './tour-main/tour-main.component';
+import { SelectedTourComponent } from './selected-tour/selected-tour.component';
+
 const routes: Routes = [
   {
     path: 'contact',
@@ -34,6 +36,10 @@ const routes: Routes = [
      path: 'tour',
      component: TourDetailComponent
    },
+   {
+    path: ' /:id',
+    component: SelectedTourComponent
+  },
   {
     path: '',
     redirectTo: '/tour',
