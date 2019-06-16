@@ -62,12 +62,11 @@
                             <a class="nav-link" routerLink="./news-events">Select Tours</a>
                         </li> -->
                     <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" routerLink="news-events" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" >
                             Select Tours
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" routerLink="news-events" fragment="ALL">All</a>
                             <a class="dropdown-item" routerLink="news-events" fragment="CULTURAL">CULTURAL</a>
                             <a class="dropdown-item" routerLink="news-events" fragment="AYURVEDAWELLNESS">AYURVEDA & WELLNESS</a>
                             <a class="dropdown-item" routerLink="news-events" fragment="INTOTHEWILD">INTO THE WILD</a>
@@ -99,7 +98,7 @@
         </div>
     </div>
     
-    <router-outlet></router-outlet>
+    <router-outlet (activate)="onActivate($event)"></router-outlet>
 </main>
 <!-- <button style="    position: fixed;
         top: 0;
@@ -111,4 +110,4 @@
 <span id="Test1" style="
         float: right;
         font-size: smaller;
-      "> #Test copy rights@2017</span>
+      ">copy rights - prageeth.madhu@gmail.com</span>

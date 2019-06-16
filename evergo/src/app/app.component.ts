@@ -12,19 +12,29 @@ export class AppComponent {
   constructor(router: Router) {
 
     router.events.subscribe(s => {
-    
       if (s instanceof NavigationEnd) {
         const tree = router.parseUrl(router.url);
         if (tree.fragment) {
           const element = document.querySelector("#" + tree.fragment);
-          if (element) { element.scrollIntoView({
-            behavior: 'smooth',
-            block: 'center',
-            inline: 'center'
-        }); }
+          if (element) {
+            element.scrollIntoView({
+              behavior: 'smooth',
+              block: 'center',
+              inline: 'center'
+            });
+          }
+          else {
+
+          }
         }
       }
     });
+
+  }
+  onActivate(event) {
+    window.scroll(0, 0);
+    //or document.body.scrollTop = 0;
+    //or document.querySelector('body').scrollTo(0,0)
 
   }
   onHideMenu(): void {
@@ -34,18 +44,18 @@ export class AppComponent {
   ngOnInit() {
     window.addEventListener('scroll', (e) => {
       if (window.pageYOffset > 100) {
-          this.shouldStick = true;
-          this.shouldStick2 = true;
+        this.shouldStick = true;
+        this.shouldStick2 = true;
 
       } else {
-          this.shouldStick = false;
-          this.shouldStick2 = false;
+        this.shouldStick = false;
+        this.shouldStick2 = false;
 
       }
-  });
+    });
 
   }
-  scrollMe():void{
+  scrollMe(): void {
     debugger;
     console.log('you have scroll me');
   }
