@@ -12,19 +12,23 @@ export class AppComponent {
   constructor(router: Router) {
 
     router.events.subscribe(s => {
-      debugger;
+    
       if (s instanceof NavigationEnd) {
         const tree = router.parseUrl(router.url);
         if (tree.fragment) {
           const element = document.querySelector("#" + tree.fragment);
-          if (element) { element.scrollIntoView(true); }
+          if (element) { element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center',
+            inline: 'center'
+        }); }
         }
       }
     });
 
   }
   onHideMenu(): void {
-    debugger;
+
     console.log('you have clicked me');
   }
   ngOnInit() {

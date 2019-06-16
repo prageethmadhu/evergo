@@ -1,0 +1,33 @@
+<div *ngFor="let travel of travels">
+
+  <div class="sub-main-carousal-row" style="background-color: white">
+
+    <div class="sub-main-carousal-col-1"></div>
+    <div class="sub-main-carousal-col-2">
+      <div style="display: flex;" [ngStyle]="{'flex-direction':travel.isImgOnLeft==true?  'row': 'row-reverse'}"
+        fxLayout="row wrap" class="colored nopad">
+        <div style="width: 50%">
+          <div style="width:100%"> <img src="{{imagePath}}{{travel.img}}" alt="Chicago"> </div>
+        </div>
+        <div id={{travel.tag}}></div>
+        <div style="width: 50%">
+          <h2 _ngcontent-c3="" style=" text-align: left;;color: rgb(217, 206, 147);margin: 2% 0% 3% 7%;">
+            {{travel.title}}</h2>
+          <div>
+            <p
+              style="color:rgb(82, 82, 100);word-wrap:break-word;width:100%;text-align: left;word-spacing:2px;margin: 0% 0% 0% 4%;">
+              {{travel.discription}}
+              <br>
+              <br>
+              <a routerLink="/selected-tour/cultural">View more ..</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sub-main-carousal-col-3" ></div>
+
+  </div>
+
+  <br >
+</div>

@@ -10,35 +10,45 @@ import { NewsEventComponent } from './news-event/news-event.component';
 import { ContactMainComponent } from './contact-main/contact-main.component';
 import { TourMainComponent } from './tour-main/tour-main.component';
 import { SelectedTourComponent } from './selected-tour/selected-tour.component';
+import { MaldivesTravelComponent } from './maldives-travel/maldives-travel.component';
+
 
 const routes: Routes = [
   {
     path: 'contact',
     component: ContactMainComponent
   },
-   {
-     path: 'faq',
-     component: FreequentlyAskQuestionsComponent
-   },
-   {
-     path: 'news-events',
-     component: TourMainComponent
-   },
-   {
-     path: 'about',
-     component: AboutUsComponent
-   },
-   {
-     path: 'testimonials',
-     component: TourTestimonialComponent
-   },
-   {
-     path: 'tour',
-     component: TourDetailComponent
-   },
-   {
-    path: ' /:id',
+  {
+    path: 'faq',
+    component: FreequentlyAskQuestionsComponent
+  },
+  {
+    path: 'news-events/:id',
+    component: TourMainComponent
+  },
+  {
+    path: 'news-events',
+    component: TourMainComponent
+  },
+  {
+    path: 'about',
+    component: AboutUsComponent
+  },
+  {
+    path: 'testimonials',
+    component: TourTestimonialComponent
+  },
+  {
+    path: 'tour',
+    component: TourDetailComponent
+  },
+  {
+    path: 'selected-tour/:id',
     component: SelectedTourComponent
+  },
+   {
+    path: 'tour-maldives/:id',
+    component: MaldivesTravelComponent
   },
   {
     path: '',
@@ -48,8 +58,8 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ],
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
   declarations: []
 })
 export class AppRoutingModule { }

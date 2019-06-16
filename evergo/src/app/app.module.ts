@@ -20,6 +20,8 @@ import { ContactMainComponent } from './contact-main/contact-main.component';
 import { TourMainComponent } from './tour-main/tour-main.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { SelectedTourComponent } from './selected-tour/selected-tour.component';
+import { TravelMiniDetailComponent } from './travel-mini-detail/travel-mini-detail.component';
+import { MaldivesTravelComponent } from './maldives-travel/maldives-travel.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { SelectedTourComponent } from './selected-tour/selected-tour.component';
     ContactFormComponent,
     ContactMainComponent,
     TourMainComponent,
-    SelectedTourComponent
+    SelectedTourComponent,
+    TravelMiniDetailComponent,
+    MaldivesTravelComponent
   ],
   imports: [
     NgbModule,

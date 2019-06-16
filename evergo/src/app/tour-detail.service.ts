@@ -10,7 +10,7 @@ export class TourDetailService {
   constructor() { }
 
   getTourDetail(tourType: string) {
-    var tourDetails = {};
+    var tourDetails = {}; 
     switch (tourType) {
       case "cultural": {
         //statements;
