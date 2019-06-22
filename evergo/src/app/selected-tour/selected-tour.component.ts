@@ -9,10 +9,11 @@ import { environment } from '../../environments/environment';
   styleUrls: ['./selected-tour.component.css']
 })
 export class SelectedTourComponent implements OnInit {
-  selectedType: {};
+  selectedType:any=<any> {};
   constructor(private route: ActivatedRoute, private tourDetail: TourDetailService) { }
 
   ngOnInit() {
+    debugger;
     this.selectedType = this.tourDetail.getTourDetail(this.route.snapshot.paramMap.get('id'));
   }
   imagePath= environment.imgPath;

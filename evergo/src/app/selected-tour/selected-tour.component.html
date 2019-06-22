@@ -10,7 +10,8 @@
     <div style="display:flex">
       <div fxLayout="row wrap" class="colored nopad">
         <div fxFlex="grow">
-          <h2 style=" text-align: left;background: #fff;color: rgb(85, 106, 146);">{{selectedType.title}}</h2>
+          <h2 style="text-align: left;background: #fff;color: rgb(174, 71, 73);font-weight: 500;">{{selectedType.title}}
+          </h2>
           <div>
             <br>
             <span style="color:rgb(82, 82, 100);word-wrap:break-word;width:100%;text-align: left; ">
@@ -34,23 +35,34 @@
 
     </div>
 
-    <div>
-      <span>
-        <p>Duration : {{selectedType.duration}}</p>
-      </span>
+    <div class="card bg-danger text-white" style="
+    background-color: #944048 !important;
+">
+      <div class="card-body">
+
+        DURATION : {{selectedType.duration}}
+
+      </div>
     </div>
 
     <div class="sub-main-carousal-row" style="display:flex;flex-direction: column;margin: 20px 1px 10px 1px"
       *ngFor="let activity of selectedType.activities">
-      <div>
-        {{activity.day}}
-        <br>
-      </div>
+      <div class="card">
+        <div class="card-body">
 
+          {{activity.day}}
+        </div>
+
+      </div>
+      <br>
       <div>
-        {{activity.route}}
+        <span style="font-size: large;font-family: sans-serif;color: #944048">
+          {{activity.route}}
+        </span>
         <br>
-        Travel duration: {{activity.tduration}} Hours
+        <span>
+          Travel duration: {{activity.tduration}} Hours
+        </span>
         <br>
       </div>
 
@@ -62,7 +74,13 @@
 
       <div>
         <br>
-        {{activity.stay}}
+
+        <div style="display: flex">
+          <div> <img src="{{imagePath}}bed2.png" style="width: 40px;"></div>
+          <div style="margin: 6px;font-weight: 350;font-style: italic;"> {{activity.stay}}</div>
+        </div>
+
+
         <br>
       </div>
 
@@ -78,7 +96,18 @@
     </div>
 
     <div>
-        <a routerLink="/contact">INQUIRE NOW</a>
+      <a style=" 
+      display: block;
+      width: 183px;
+      height: 59px;
+      background: #944048;
+      padding: 17px;
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      
+      " routerLink="/contact">INQUIRE NOW</a>
     </div>
 
     <div>
