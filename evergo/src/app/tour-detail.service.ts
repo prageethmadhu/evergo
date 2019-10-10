@@ -24,12 +24,12 @@ export class TourDetailService {
           So World! Be SO SRI LANKA we invite you to explore and experience in the pearl of the Indian Ocean
           with “Evergo Way”`,
           title: "Cultural",
-          images: ["c1.jpg", "c2.jpg", "c3.jpg"],
+          images: ["Culture-1.JPG", "Culture-3.JPG", "Culture-4.JPG"],
           duration: "05 NIGHTS 06 DAYS",
           activities: [
             {
               day: "DAY 01",
-              route: "Airport Colombo",
+              route: "Airport > Colombo",
               tduration: "01",
               discription: `You will be welcomed by one of our chauffeur driver at the Airport and then transfer to Colombo Hotel.
                          Check-in to the Hotel, relax and recover from any jet lag and get ready for the plan a head`,
@@ -68,7 +68,7 @@ export class TourDetailService {
           activities: [
             {
               day: "DAY 01",
-              route: "Airport Colombo",
+              route: "Airport > Colombo",
               tduration: "01",
               discription: `You will be welcomed by one of our chauffeur driver at the Airport and then transfer to Colombo Hotel.
                          Check-in to the Hotel, relax and recover from any jet lag and get ready for the plan a head`,
@@ -115,7 +115,7 @@ export class TourDetailService {
           activities: [
             {
               day: "DAY 01",
-              route: "Airport Colombo",
+              route: "Airport > Colombo",
               tduration: "01",
               discription: `You will be welcomed by one of our chauffeur driver at the Airport and then transfer to Colombo Hotel.
                          Check-in to the Hotel, relax and recover from any jet lag and get ready for the plan a head`,
@@ -192,7 +192,7 @@ export class TourDetailService {
           activities: [
             {
               day: "DAY 01",
-              route: "Airport Colombo",
+              route: "Airport > Colombo",
               tduration: "01",
               discription: `You will be welcomed by one of our representative at the Airport and then transfer to Colombo Hotel.
               Check-in to the Hotel, enjoy the city tour and shopping and leisurely spend evening before a long and exhausting plan a head`,
@@ -441,7 +441,7 @@ export class TourDetailService {
           activities: [
             {
               day: "DAY 01",
-              route: "Airport Colombo",
+              route: "Airport > Colombo",
               tduration: "01",
               discription: `You will be welcome by one of our representative at the Airport and then transfer to Colombo hotel
               Check-in to the Hotel, relax and recover from any jet lag and enjoy the evening city tour and bit of shopping before your games in 18-hole golf courses`,
@@ -508,7 +508,7 @@ export class TourDetailService {
           activities: [
             {
               day: "DAY 01",
-              route: "Airport Colombo",
+              route: "Airport > Colombo",
               tduration: "01",
               discription: `You will be welcomed by one of our chauffeur driver at the Airport and then transfer to Colombo Hotel.
                          Check-in to the Hotel, relax and recover from any jet lag and get ready for the plan a head`,
@@ -552,7 +552,7 @@ export class TourDetailService {
           activities: [
             {
               day: "DAY 01",
-              route: "Airport Colombo",
+              route: "Airport > Colombo",
               tduration: "01",
               discription: `You will be welcomed by one of our representative at the Airport and then transfer to Colombo Hotel
               Check-in to the Hotel, relax and recover from any jet lag and enjoy the evening before the exhausting journey a head`,

@@ -85,7 +85,7 @@ export class TourMiniDetailService {
            the wildlife, dive into huge coral reefs while exploring our unique culture and ancient temples and remains.
             So World! Be SO SRI LANKA We invite you to explore and experience in the pearl of the Indian Ocean
              with “Evergo Way” `,
-        img: "A1.jpg",
+        img: "dambulla cave.jpg",
         url: "/selected-tour/cultural",
         isImgOnLeft: true
       },
@@ -93,7 +93,7 @@ export class TourMiniDetailService {
         tag: "AYURVEDAWELLNESS",
         title: `AYURVEDA & WELLNESS`,
         discription: `Run away from stressful modern life but relax and refresh your mind, body, and soul with a Ayurvedic Journey proficient in Sri Lanka for many centuries. Unique authentic treatments and traditional techniques combine with medicinal plants, herbs, spices and diets. `,
-        img: "A2.jpg",
+        img: "Ayurveda-front pic.jpg",
         url: "/selected-tour/ayurveda",
         isImgOnLeft: false
       },
@@ -101,7 +101,7 @@ export class TourMiniDetailService {
         tag: "INTOTHEWILD",
         title: `INTO THE WILD`,
         discription: `listen to the ethereal voices of the sea, feel the breeze of the birds, be flabbergasted by the gatherings while gaze at flourished mother nature and exotic wildlife in Sri Lanka. Keep on alert for a sight of the rare sloth bear or leopard while your safari tour in our exclusive national parks in Yala, Udawalawe, Kaudulla, Wilpattu, Minneriya, and Gal Oya `,
-        img: "A1.jpg",
+        img: "into the wild-front pic.JPG",
         url: "/selected-tour/wild",
         isImgOnLeft: true
       },
@@ -109,7 +109,7 @@ export class TourMiniDetailService {
         tag: "UPINTHEHILLS",
         title: `UP IN THE HILLS`,
         discription: `Witness the hill country the culture and the climate with mountains glistened in shades of emerald and jade, a different environment in this tropical region.`,
-        img: "A1.jpg",
+        img: "Hills-front pic.jpg",
         url: "/selected-tour/hill",
         isImgOnLeft: false
       },
@@ -117,7 +117,7 @@ export class TourMiniDetailService {
         tag: "LOVEROMANTIC",
         title: `LOVE & ROMANTIC`,
         discription: `Looking for a chance to celebrate your love in style! Be enchantment with your soulmate and ensure that you and your other half can enjoy the precious time and space that you needed among lush forests, golden sandy shores and green paddy fields `,
-        img: "A2.jpg",
+        img: "Romantic-front pic.jpg",
         url: "/selected-tour/romantic",
         isImgOnLeft: true
       },
@@ -125,7 +125,7 @@ export class TourMiniDetailService {
         tag: "SANDYSHORE",
         title: `SANDY SHORE`,
         discription: `Relax on an island Surrounded by the soft and gold sandy beaches well-known as Pearl of the Indian Ocean. Negombo, south or east coasts’ stunning shores with azure waters are a genuine tropical escape. `,
-        img: "A1.jpg",
+        img: "Sandyshore-front pic.jpg",
         url: "/selected-tour/shore",
         isImgOnLeft: false
       },
@@ -134,7 +134,7 @@ export class TourMiniDetailService {
         title: `GOLF & LUXURY`,
         discription: `Golf couras are a must try during your stay and play a game at the 18-hole golf courses. Victoria Golf and Country Club, Nuwara Eliya Golf club and Royal golf club which is the oldest in Sri Lanka, are the most luxurious courses for you to have a session. 
         `,
-        img: "A1.jpg",
+        img: "Golf-front pic----.jpg",
         url: "/selected-tour/golf",
         isImgOnLeft: true
       },
@@ -142,7 +142,7 @@ export class TourMiniDetailService {
         tag: "EXCURSIONS",
         title: `EXCURSIONS`,
         discription: `Day tours organized by Evergo Travels lead you to many luxury experiences for the guests to enjoy diverse activities and scenic mother nature. Destined it hiking and trekking through mountains. `,
-        img: "A2.jpg",
+        img: "excursion Downsouth-frontpic-------.jpg",
         url: "/selected-tour/excursions",
         isImgOnLeft: false
       },
@@ -150,7 +150,7 @@ export class TourMiniDetailService {
         tag: "SEATINCOACH",
         title: `SEAT IN COACH`,
         discription: `The most pocket easy way to experience the culture, wildlife, history, and ancient cities with all the key destinations stop around the Island. Ideal tour not only to travel around the cities but also to make new multicultural companions and share experiences with. `,
-        img: "A1.jpg",
+        img: "Transfer 3-----.jpg",
         url: "/selected-tour/coarch",
         isImgOnLeft: true
       }
