@@ -1,4 +1,6 @@
 <main>
+ 
+ 
     <div class="navWrapper">
         <div class="topNavigation top" id="mainTop" [ngClass]="{'stick': shouldStick}" style="display: block  ">
             <div style="display: flex;  ">
@@ -97,8 +99,9 @@
 
         </div>
     </div>
-    
+     
     <router-outlet (activate)="onActivate($event)"></router-outlet>
+    <app-under-construction-popup></app-under-construction-popup>
 </main>
 <!-- <button style="    position: fixed;
         top: 0;

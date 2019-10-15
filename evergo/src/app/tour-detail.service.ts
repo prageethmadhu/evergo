@@ -24,7 +24,7 @@ export class TourDetailService {
           So World! Be SO SRI LANKA we invite you to explore and experience in the pearl of the Indian Ocean
           with “Evergo Way”`,
           title: "Cultural",
-          images: ["Culture-1.JPG", "Culture-3.JPG", "Culture-4.JPG"],
+          images: ["ViewMore/1cultural/Culture-1.JPG", "ViewMore/1cultural/Culture-3.JPG", "ViewMore/1cultural/Culture-4.JPG"],
           duration: "05 NIGHTS 06 DAYS",
           activities: [
             {
@@ -63,7 +63,7 @@ export class TourDetailService {
           the Science of Life. (Ayur-life, Veda-science) Hence, come and find a sense of inner peace surrounded by
           the mother nature`,
           title: "AYURVEDA & WELLNESS",
-          images: ["c3.jpg", "c2.jpg", "c1.jpg"],
+          images: ["ViewMore/2AYURWEDA/AyuDetail1.jpg", "ViewMore/2AYURWEDA/AyuDetail2.jpg", "ViewMore/2AYURWEDA/AyuDetail3.jpg"],
           duration: "07 NIGHTS 08 DAYS",
           activities: [
             {
@@ -110,7 +110,7 @@ export class TourDetailService {
           Yala, Udawalawe, Kaudulla, Wilpattu, Minneriya, and Gal Oya. Later on to huge whales and group of
           dolphins in Mirissa. You can customize the tour as you wish with the concern of possibilities.`,
           title: "WILD LIFE",
-          images: ["c3.jpg", "c2.jpg", "c1.jpg"],
+          images: ["ViewMore/3Intothewild/into the wild-1.JPG", "ViewMore/3Intothewild/into the wild-2.JPG", "ViewMore/3Intothewild/into the wild-4.JPG"],
           duration: "05 NIGHTS 06 DAYS",
           activities: [
             {
@@ -187,7 +187,7 @@ export class TourDetailService {
         tourDetails = {
           detail: `Witness the hill country, the culture and the climate with mountains glistened in shades of emerald and jade, a different environment in this tropical region. Trek through Horton Plains, Worlds end, Ella and Nuwara Eliya one of the coldest regions in Sri Lanka while breathing the fresh air cascade from the mountains.`,
           title: "UP IN THE HILLS",
-          images: ["c3.jpg", "c2.jpg", "c1.jpg"],
+          images: ["ViewMore/4upinthehill/Hills-1.JPG", "ViewMore/4upinthehill/Hills-2.JPG", "ViewMore/4upinthehill/Hills-3.JPG"],
           duration: "06 NIGHTS 07 DAYS",
           activities: [
             {
@@ -264,7 +264,7 @@ export class TourDetailService {
           detail: `Looking for a chance to celebrate your love in style!
           Be enchantment with your soulmate and ensure that you and your other half can enjoy the precious time and space that you needed among lush forests, golden sandy shores and green paddy fields and can have a perfect honeymoon vacation with luxury and comfort. This tailor-made routes can be customized as you prefer with the concern of possibilities`,
           title: "LOVE & ROMANTIC",
-          images: ["c3.jpg", "c2.jpg", "c1.jpg"],
+          images: ["ViewMore/5loveandromance/Romantic-1.jpg", "ViewMore/5loveandromance/Romantic-2.jpg", "ViewMore/5loveandromance/Romantic-3.jpg"],
           duration: "08 NIGHTS 09 DAYS",
           activities: [
             {
@@ -357,7 +357,7 @@ export class TourDetailService {
         tourDetails = {
           detail: `Relax on an Island Surrounded by the soft and gold sandy beaches well-known as Pearl of the Indian Ocean. Negombo, south or east coasts’ stunning shores with azure waters are a genuine tropical escape. Sun-bathing, swimming, surfing, water sports, deep sea fishing and diving experiences will be treasured for a lifetime. This tailor-made routes can be customized as you prefer with the concern of possibilities`,
           title: "SANDY SHORE",
-          images: ["c3.jpg", "c2.jpg", "c1.jpg"],
+          images: ["ViewMore/6sandy shoe/Sandyshore-1.JPG", "ViewMore/6sandy shoe/Sandyshore-2.JPG", "ViewMore/6sandy shoe/Sandyshore-3.jpg"],
           duration: "08 NIGHTS 09 DAYS",
           activities: [
             {
@@ -436,7 +436,7 @@ export class TourDetailService {
           detail: `Golf courses are a must try during your stay and play a game at the 18-hole golf courses.
           Victoria Golf and Country Club, Nuwara Eliya Golf club and Royal golf club which is the oldest in Sri Lanka, are the most luxurious courses for you to have a session. Air taxi or a helicopter can blend you fast and comfortably between 18-hole golf courses and Five-star hotels, luxury villas, lavish spas and pools in the city of Colombo, Hill country & Other cities`,
           title: "GOLF & LUXURY",
-          images: ["c3.jpg", "c2.jpg", "c1.jpg"],
+          images: ["ViewMore/7golfluxury/Golf-1------.jpg", "ViewMore/7golfluxury/Golf-3.jpg", "ViewMore/7golfluxury/Golf-4-------.JPG"],
           duration: "06 NIGHTS 07 DAYS",
           activities: [
             {
@@ -503,7 +503,7 @@ export class TourDetailService {
         tourDetails = {
           detail: `Day tours organized by Evergo Travels lead you to many luxury experiences for the guests to enjoy diverse activities and scenic mother nature. Destined it hiking and trekking through mountains and lush forests, white water rafting, day and night safari through deep forests, whales and birds watch, cultural shows, Tea plantation and factories, Sri Lanka rich heritage and many more. So be it. SO Sri Lanka with Evergo Travels.`,
           title: "EXCURSIONS",
-          images: ["c3.jpg", "c2.jpg", "c1.jpg"],
+          images: ["ViewMore/8excursions/excursion Naturetrails-1.jpg", "ViewMore/8excursions/excursion pinnawala-1.jpg", "ViewMore/8excursions/excursion Whale watch-1.jpg"],
           duration: "07 NIGHTS 08 DAYS",
           activities: [
             {
@@ -547,7 +547,7 @@ export class TourDetailService {
         tourDetails = {
           detail: `The most pocket easy way to experience the culture, wildlife, history, and ancient cities with all the key destinations stop around the Island. Ideal tour not only to travel around the cities but also to make new multicultural companions and share experiences with.`,
           title: "SEAT IN COACH",
-          images: ["c3.jpg", "c2.jpg", "c1.jpg"],
+          images: ["ViewMore/9seatincorch/excursion Heritage-front pic.jpg", "ViewMore/9seatincorch/Golf-front pic----.jpg", "ViewMore/9seatincorch/one dolphine.jpg"],
           duration: "08 NIGHTS 09 DAYS",
           activities: [
             {

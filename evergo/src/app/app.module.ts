@@ -13,7 +13,7 @@ import { TourDetailComponent } from './tour-detail/tour-detail.component';
 import { TourTestimonialComponent } from './tour-testimonial/tour-testimonial.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms'; 
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {NgbModule,NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
 import { ContactAddressComponent } from './contact-address/contact-address.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ContactMainComponent } from './contact-main/contact-main.component';
@@ -22,6 +22,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { SelectedTourComponent } from './selected-tour/selected-tour.component';
 import { TravelMiniDetailComponent } from './travel-mini-detail/travel-mini-detail.component';
 import { MaldivesTravelComponent } from './maldives-travel/maldives-travel.component';
+import { UnderConstructionPopupComponent } from './under-construction-popup/under-construction-popup.component';
 
 @NgModule({
   declarations: [
@@ -42,18 +43,20 @@ import { MaldivesTravelComponent } from './maldives-travel/maldives-travel.compo
     TourMainComponent,
     SelectedTourComponent,
     TravelMiniDetailComponent,
-    MaldivesTravelComponent
+    MaldivesTravelComponent,
+    UnderConstructionPopupComponent
   ],
   imports: [
-    NgbModule,
+    NgbModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
     FormsModule,
     MDBBootstrapModule.forRoot()
+  ///  NgbModule.forRoot()
   ],
-  providers: [],
+  providers: [NgbActiveModal],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

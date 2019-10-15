@@ -1,0 +1,32 @@
+<ng-template #content let-modal let-d="dismiss" let-c="close">
+  
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title" style="text-align: left;background: #fff;color: #a60413 !important;font-weight: 350;">Web site still improving for a greate affect</h4>
+      <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <label for="dateOfBirth" style="
+          color: #ef8803;
+      ">Apologize for the inconvenience caussed...</label>
+    
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="c('Save click')" style="
+      background-color: #a60413 !important;
+      color: #ef8803 !important;
+      border: none !important;
+  ">Continue</button>
+    </div>
+  </ng-template>
+  
+  <!-- <button class="btn btn-lg " (click)="open(content)" >Launch demo modal</button>
+   -->
+  <hr>
+  
+  <pre>{{closeResult}}</pre>
