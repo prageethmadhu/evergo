@@ -25,7 +25,7 @@ export class TourMiniDetailService {
         title: `MOVENPICK RSORT KUREDHIVARU`,
         discription: `Awaken your senses at five-star 
         Mӧvenpick Resort Kuredhivaru Maldives, located 45 minutes north of Male International Airport`,
-        img: "A1.jpg",
+        img: "Moldives/ViewMore/Maldives-movenpick.jpg",
         url: "",
         isImgOnLeft: true
       },
@@ -34,7 +34,7 @@ export class TourMiniDetailService {
         title: `HIDEAWAY BEACH RESORT & SPA`,
         discription: `The perfect island retreat in the Maldives, is located in the northern Haa Alifu Atoll. Set on a
         crescent-shaped private island house to incredible resorts offers a choice of private villas.`,
-        img: "A2.jpg",
+        img: "Moldives/ViewMore/Maldives-hideaway.jpg",
         url: "",
         isImgOnLeft: false
       },
@@ -43,7 +43,7 @@ export class TourMiniDetailService {
         title: `FUSHIFARU MALDIVES`,
         discription: `Enjoy brand new exquisite private island resort with 49 Villas to experiences the 
         nature and great concoctions while facing the scenic beauty of the waters`,
-        img: "A1.jpg",
+        img: "Moldives/ViewMore/Maldives-fushifaru.jpg",
         url: "",
         isImgOnLeft: true
       },
@@ -55,7 +55,7 @@ export class TourMiniDetailService {
         Imagine a place surrounded by Golden
         sandy pristine beach, hidden turquoise
         lagoons and breathtaking coral reefs.`,
-        img: "A1.jpg",
+        img: "Moldives/ViewMore/Maldives-amari.jpg",
         url: "",
         isImgOnLeft: false
       },
@@ -65,7 +65,7 @@ export class TourMiniDetailService {
         discription: `Exotic, deserted and untouched is one way of describing
         the indescribable. The best place to relax, soak-up the
         sun and enjoy your stay in Maldives`,
-        img: "A1.jpg",
+        img: "Moldives/ViewMore/Maldives-fun island.jpg",
         url: "",
         isImgOnLeft: true
       }

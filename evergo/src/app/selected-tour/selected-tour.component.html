@@ -76,10 +76,10 @@
         <br>
       </div>
 
-      <div>
+      <div [hidden]="!activity.stay">
         <br>
 
-        <div style="display: flex">
+        <div style="display: flex" >
           <div> <img src="{{imagePath}}icon-bed.png" style="width: 40px;"></div>
           <div style="margin: 6px;font-weight: 350;font-style: italic;"> {{activity.stay}}</div>
         </div>
@@ -90,15 +90,12 @@
 
     </div>
 
-
-    <div>
-      <span>
-        <p>
-          {{selectedType.summary}}
-        </p>
-      </span>
-    </div>
-
+    <div style="display: flex">
+        <div> <img src="{{imagePath}}airplane.png" style="width: 82px;"></div>
+        <div style="margin: 19px;font-weight: 350;font-style: italic;"> {{selectedType.summary}}</div>
+        <br>
+      </div>
+      <br>
     <div>
       <a style=" 
       display: block;
@@ -126,8 +123,8 @@
       </ul>
     </div>
     <div>
-      Share this post
-      FACEBOOK / TWITTER / PINTEREST / GOOGLE+ / LINKEDIN
+      Share this post:
+     <a href=""> FACEBOOK</a> | <a href=""> TWITTER</a>  | <a href=""> PINTEREST</a> |<a href=""> GOOGLE+ </a> |<a href=""> LINKEDIN</a> 
     </div>
     <div class="sub-main-carousal-col-3"></div>
   </div>

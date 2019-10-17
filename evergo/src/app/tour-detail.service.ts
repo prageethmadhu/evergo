@@ -36,15 +36,69 @@ export class TourDetailService {
               stay: "Overnight stay in Colombo"
             },
             {
-              day: "FROM DAY 02 – DAY 5",
-              route: "Colombo > Dambulla or Beruwala as you prefer",
-              tduration: "04",
-              discription: `Relish a delicious breakfast at your hotel and Set off to ayurvedic treatments and tranquil relaxation experience
-              The treatments will commence from second day onwards 
-              Each day begins with a yoga session to improve your inner peace
-              You will experience the unique and authentic detox programs including Shirodhara and many more treatments by experienced ayurveda therapists to build a perfect inner balance. Private meditation and the ayurvedic cuisines provides a perfect environment to build your own inner peace.
-              In the meantime, you can experience the natural beauty and the heritage by visiting local and regional attractions guided by our chauffeur guides or naturalists`,
-              stay: "Overnight stays in Dambulla or Beruwala"
+              day: "DAY 02",
+              route: "Colombo > Dambulla/Sigiriya",
+              tduration: "04 1/2 Hours",
+              discription: `After breakfast set off from Colombo to Dambulla/Sigiriya
+              Drop by the Pinnawela Elephant Orphanage on the way to UNESCO world heritages of Dhambulla rock
+              cave Temple or Sigiriya rock fortress. Jeep safari in neighboring Minneriya national park to explore wild
+              life and village tour to visit locals, farming, cooking, foods and reservoirs before wind up the day`,
+              stay: "Overnight stay in Sigiriya"
+            },
+            {
+              day: "DAY 03",
+              route: "Sigiriya > Polonnaruwa > Sigiriya",
+              tduration: "02 Hours",
+              discription: `Have breakfast at your hotel and proceed to Polonnaruwa
+              Sigiriya rock fortress and visit to UNESCO world heritage city of Polonnaruwa kingdom and learn about
+              the glorious past amidst the giant buildings, statues, stupa and ruins of the ancient Ceylon`,
+              stay: "Overnight stay in Sigiriya"
+            },
+            {
+              day: "DAY 04",
+              route: "Sigiriya > Kandy",
+              tduration: "03 Hours",
+              discription: `After the morning break proceed to Kandy
+              Highlights of the day are the Temple of the Sacred Tooth Relic and the neighboring Udawattakale forest
+              reserve. Witness the unique events of cultural dance performances and night sight tour later in the
+              evening to wind up the day`,
+              stay: "Overnight stay in Kandy"
+            },
+            {
+              day: "DAY 05",
+              route: "Kandy > Nuwara Eliya",
+              tduration: "03 Hours",
+              discription: `Have your delicious breakfast at your hotel and proceed to Nuwara Eliya
+              Highlights and sceneries of the day are Nuwara Eliya town, Ramboda Waterfall, Gregory Lake and
+              Victoria Park. Witness the Tea plantation, Tea pluckers, Tea factories and Macwoods Tea center during
+              the day`,
+              stay: "Overnight stay in Nuwara Eliya"
+            },
+            {
+              day: "DAY 06",
+              route: "Nuwara Eliya > Yala",
+              tduration: "06 Hours",
+              discription: `Relish a delicious breakfast at your hotel and travel to down south from center of the Sri Lanka
+              Explore and witness the wild life of Elephants, Leopards, Spotted Deer, Sambhur, Crocodiles, Mongoose,
+              Wild Boars, Wild Buffalo, and many other animals including large reservoirs over an evening jeep safari
+              guided by a naturalist`,
+              stay: "Overnight stay in Yala"
+            },
+            {
+              day: "DAY 07",
+              route: "Yala > Galle",
+              tduration: "05 Hours",
+              discription: `Have your breakfast and travel down to coastal area
+              Witness Galle fort, a UNESCO world heritage site built by Portuguese and then further developed by the
+              Dutch and the British. Further can explore Churches, Lighthouse, Bell towers and Fishermen`,
+              stay: "Overnight stay in Galle"
+            },
+            {
+              day: "DAY 08",
+              route: "Galle > Airport",
+              tduration: "04 Hours",
+              discription: `After your exploring cultural journey with lots of memorable experiences and sun-tanned skin, it’s time to say good bye until you visit us again for yet another fascinating tour in paradise Sri Lanka`,
+            
             }
           ],
           summary: `After all guidance, healthy advices and inspections from our ayurveda therapists and Doctors,
