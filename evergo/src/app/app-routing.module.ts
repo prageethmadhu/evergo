@@ -11,6 +11,7 @@ import { ContactMainComponent } from './contact-main/contact-main.component';
 import { TourMainComponent } from './tour-main/tour-main.component';
 import { SelectedTourComponent } from './selected-tour/selected-tour.component';
 import { MaldivesTravelComponent } from './maldives-travel/maldives-travel.component';
+import { ExcursionsTravelComponent } from './excursions-travel/excursions-travel.component';
 
 
 const routes: Routes = [
@@ -49,6 +50,10 @@ const routes: Routes = [
    {
     path: 'tour-maldives/:id',
     component: MaldivesTravelComponent
+  },
+  {
+    path: 'selected-tour/details/:id',
+    component: ExcursionsTravelComponent
   },
   {
     path: '',

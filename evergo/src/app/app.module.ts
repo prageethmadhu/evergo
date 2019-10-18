@@ -23,6 +23,7 @@ import { SelectedTourComponent } from './selected-tour/selected-tour.component';
 import { TravelMiniDetailComponent } from './travel-mini-detail/travel-mini-detail.component';
 import { MaldivesTravelComponent } from './maldives-travel/maldives-travel.component';
 import { UnderConstructionPopupComponent } from './under-construction-popup/under-construction-popup.component';
+import { ExcursionsTravelComponent } from './excursions-travel/excursions-travel.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { UnderConstructionPopupComponent } from './under-construction-popup/unde
     SelectedTourComponent,
     TravelMiniDetailComponent,
     MaldivesTravelComponent,
-    UnderConstructionPopupComponent
+    UnderConstructionPopupComponent,
+    ExcursionsTravelComponent
   ],
   imports: [
     NgbModule.forRoot(),

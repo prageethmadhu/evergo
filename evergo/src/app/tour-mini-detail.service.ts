@@ -8,9 +8,13 @@ export class TourMiniDetailService {
   constructor() { }
 
   getAllTravelMiniDetail(tourType: string) {
+    debugger
     switch (tourType) {
       case "Maldives": {
         return this.getMaldivesMiniDetails();
+      }
+      case "excursion": {
+        return this.getMaldivesExcursionDetails();
       }
       default: {
         return this.getSLMiniDetails();
@@ -143,7 +147,7 @@ export class TourMiniDetailService {
         title: `EXCURSIONS`,
         discription: `Day tours organized by Evergo Travels lead you to many luxury experiences for the guests to enjoy diverse activities and scenic mother nature. Destined it hiking and trekking through mountains. `,
         img: "excursion Downsouth-frontpic-------.jpg",
-        url: "/selected-tour/excursions",
+        url: "/selected-tour/details/excursion",
         isImgOnLeft: false
       },
       {
@@ -153,6 +157,116 @@ export class TourMiniDetailService {
         img: "Transfer 3-----.jpg",
         url: "/selected-tour/coarch",
         isImgOnLeft: true
+      }
+    ];
+  }
+  getMaldivesExcursionDetails() {
+    return [
+      {
+        tag: "SAFARI IN NATIONAL PARKS",
+        title: `SAFARI IN NATIONAL PARKS`,
+        discription: `Be thrilled and explore the exotic wildlife on the nature trails.`,
+        img: "Moldives/ViewMore/Maldives-movenpick.jpg",
+        url: "",
+        isImgOnLeft: true
+      },
+      {
+        tag: "HERITAGE",
+        title: `WITNESS THE RICH HERITAGE`,
+        discription: `Discover the land known as Taprobane filled
+        with man-made wonders more than 2500
+        year ago from ruins to World Heritage Sites.
+        Below.`,
+        img: "Moldives/ViewMore/Maldives-hideaway.jpg",
+        url: "",
+        isImgOnLeft: false
+      },
+      {
+        tag: "NATURE",
+        title: `NATURE TRAILS`,
+        discription: `Kithulgala is the famous place to adventure sports
+        including white water rafting in Sri Lanka. Experience
+        the thrill in furious turns and twists.`,
+        img: "Moldives/ViewMore/Maldives-fushifaru.jpg",
+        url: "",
+        isImgOnLeft: true
+      },
+      {
+        tag: "DOWNSOUTH",
+        title: `WELCOME TO DOWN SOUTH`,
+        discription: `Cast yourself to somewhere private, to
+        an island dazzling and undisturbed.
+        Imagine a place surrounded by Golden
+        sandy pristine beach, hidden turquoise
+        lagoons and breathtaking coral reefs.`,
+        img: "Moldives/ViewMore/Maldives-amari.jpg",
+        url: "",
+        isImgOnLeft: false
+      },
+      {
+        tag: "DOLPHIN",
+        title: `WHALE & DOLPHIN WATCHING`,
+        discription: `Witness Fishermen, local villages during the drive to
+        bay of Mirissa to watch huge whales and group of
+        Dolphins dancing in deeper waters beyond the Bay.`,
+        img: "Moldives/ViewMore/Maldives-fun island.jpg",
+        url: "",
+        isImgOnLeft: true
+      },
+      {
+        tag: "BOTANICAL",
+        title: `BOTANICAL GARDENS AND
+        WATERFALLS`,
+        discription: `Witness a different environment in this
+        tropical region with Spice gardens and
+        Orchid Houses which are popular among
+        tourists.`,
+        img: "Moldives/ViewMore/Maldives-fun island.jpg",
+        url: "",
+        isImgOnLeft: false
+      },
+      {
+        tag: "SRIPADA",
+        title: `SRI PADA MOUNT PEAK (ADAM’S PEAK)`,
+        discription: `Pay respect to the most sacred mountain in Sri
+        Lanka. Sri pada is “The sacred footprint” of
+        Lord Buddha on top of the mountain.`,
+        img: "Moldives/ViewMore/Maldives-fushifaru.jpg",
+        url: "",
+        isImgOnLeft: true
+      },
+      {
+        tag: "DOWNSOUTH",
+        title: `WELCOME TO DOWN SOUTH`,
+        discription: `Cast yourself to somewhere private, to
+        an island dazzling and undisturbed.
+        Imagine a place surrounded by Golden
+        sandy pristine beach, hidden turquoise
+        lagoons and breathtaking coral reefs.`,
+        img: "Moldives/ViewMore/Maldives-amari.jpg",
+        url: "",
+        isImgOnLeft: false
+      },
+      {
+        tag: "PINNAWELA",
+        title: `PINNAWELA ELEPHANT ORPHANAGE`,
+        discription: `Safe House of the abandoned and
+        wounded elephants. Frolic with baby
+        Elephants brought from various parts
+        Below.`,
+        img: "Moldives/ViewMore/Maldives-fun island.jpg",
+        url: "",
+        isImgOnLeft: true
+      },
+      {
+        tag: "PLANTATION",
+        title: `TEA PLANTATION`,
+        discription: `Feel the fresh cold air welcome you cascading
+        from the mountains and trek via tea carpeted
+        valleys to ancient Tea factories and bungalows.`,
+        img: "Moldives/ViewMore/Maldives-fun island.jpg",
+        url: "",
+        isImgOnLeft: false
       }
     ];
   }
