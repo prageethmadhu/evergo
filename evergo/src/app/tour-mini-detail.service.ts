@@ -166,7 +166,7 @@ export class TourMiniDetailService {
         tag: "SAFARI IN NATIONAL PARKS",
         title: `SAFARI IN NATIONAL PARKS`,
         discription: `Be thrilled and explore the exotic wildlife on the nature trails.`,
-        img: "Moldives/ViewMore/Maldives-movenpick.jpg",
+        img: "Excursion/excursion Safari-front pic.JPG",
         url: "",
         isImgOnLeft: true
       },
@@ -177,7 +177,7 @@ export class TourMiniDetailService {
         with man-made wonders more than 2500
         year ago from ruins to World Heritage Sites.
         Below.`,
-        img: "Moldives/ViewMore/Maldives-hideaway.jpg",
+        img: "Excursion/excursion Heritage-front pic.jpg",
         url: "",
         isImgOnLeft: false
       },
@@ -187,7 +187,7 @@ export class TourMiniDetailService {
         discription: `Kithulgala is the famous place to adventure sports
         including white water rafting in Sri Lanka. Experience
         the thrill in furious turns and twists.`,
-        img: "Moldives/ViewMore/Maldives-fushifaru.jpg",
+        img: "Excursion/excursion Naturetrails-front pic.JPG",
         url: "",
         isImgOnLeft: true
       },
@@ -199,7 +199,7 @@ export class TourMiniDetailService {
         Imagine a place surrounded by Golden
         sandy pristine beach, hidden turquoise
         lagoons and breathtaking coral reefs.`,
-        img: "Moldives/ViewMore/Maldives-amari.jpg",
+        img: "Excursion/excursion Downsouth-frontpic-------.jpg",
         url: "",
         isImgOnLeft: false
       },
@@ -209,7 +209,7 @@ export class TourMiniDetailService {
         discription: `Witness Fishermen, local villages during the drive to
         bay of Mirissa to watch huge whales and group of
         Dolphins dancing in deeper waters beyond the Bay.`,
-        img: "Moldives/ViewMore/Maldives-fun island.jpg",
+        img: "Excursion/A3.jpg",
         url: "",
         isImgOnLeft: true
       },
@@ -221,7 +221,7 @@ export class TourMiniDetailService {
         tropical region with Spice gardens and
         Orchid Houses which are popular among
         tourists.`,
-        img: "Moldives/ViewMore/Maldives-fun island.jpg",
+        img: "Excursion/excursion Botanicale-front pic-----.jpg",
         url: "",
         isImgOnLeft: false
       },
@@ -231,21 +231,9 @@ export class TourMiniDetailService {
         discription: `Pay respect to the most sacred mountain in Sri
         Lanka. Sri pada is “The sacred footprint” of
         Lord Buddha on top of the mountain.`,
-        img: "Moldives/ViewMore/Maldives-fushifaru.jpg",
+        img: "Excursion/excursion Sripada-front pic.jpg",
         url: "",
         isImgOnLeft: true
-      },
-      {
-        tag: "DOWNSOUTH",
-        title: `WELCOME TO DOWN SOUTH`,
-        discription: `Cast yourself to somewhere private, to
-        an island dazzling and undisturbed.
-        Imagine a place surrounded by Golden
-        sandy pristine beach, hidden turquoise
-        lagoons and breathtaking coral reefs.`,
-        img: "Moldives/ViewMore/Maldives-amari.jpg",
-        url: "",
-        isImgOnLeft: false
       },
       {
         tag: "PINNAWELA",
@@ -254,9 +242,9 @@ export class TourMiniDetailService {
         wounded elephants. Frolic with baby
         Elephants brought from various parts
         Below.`,
-        img: "Moldives/ViewMore/Maldives-fun island.jpg",
+        img: "Excursion/excursion pinnawala-front pic.jpg",
         url: "",
-        isImgOnLeft: true
+        isImgOnLeft: false
       },
       {
         tag: "PLANTATION",
@@ -264,9 +252,9 @@ export class TourMiniDetailService {
         discription: `Feel the fresh cold air welcome you cascading
         from the mountains and trek via tea carpeted
         valleys to ancient Tea factories and bungalows.`,
-        img: "Moldives/ViewMore/Maldives-fun island.jpg",
+        img: "Excursion/excursion teaplant-front pic.jpg",
         url: "",
-        isImgOnLeft: false
+        isImgOnLeft: true
       }
     ];
   }
